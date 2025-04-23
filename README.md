@@ -89,7 +89,10 @@ Hệ thống này sẽ được thiết kế để lưu trữ, cập nhật và 
 ![image](https://github.com/user-attachments/assets/77ebdf9b-17f6-4ba5-8d15-1bb81cc584b5)  
 ![image](https://github.com/user-attachments/assets/be8b24f4-f2c0-4406-bad4-a93930052013)  
 ![image](https://github.com/user-attachments/assets/b8a132e0-60e7-413e-920c-3725393dda78)  
-![image](https://github.com/user-attachments/assets/5b6d45aa-8eac-4c4e-8b20-6cdfd30fe1b6)  
+![image](https://github.com/user-attachments/assets/5b6d45aa-8eac-4c4e-8b20-6cdfd30fe1b6)
++ Bảng liên kết các thực thể  
+  ![image](https://github.com/user-attachments/assets/8dd03400-44ba-404c-9fcc-40c3e38974ec)
+
 ## Nội dung bài tập
 - Dựa trên csdl của đồ án.  
 - Tìm cách bổ xung thêm 1 (hoặc vài) trường phi chuẩn (là trường tính toán được, nhưng thêm vào thì ok hơn, ok hơn theo logic nào đó của bài toán).  
@@ -100,4 +103,10 @@ Hệ thống này sẽ được thiết kế để lưu trữ, cập nhật và 
 + Thêm 1 trigger vào bảng hóa đơn để tự cập nhập trạng thái đã được thanh toán/chưa được thanh toán của hợp đồng mỗi khi gia hạn
 ![image](https://github.com/user-attachments/assets/23238017-5817-431d-91f3-3c3083a25c83)  
 - Nhập dữ liệu có kiểm soát cho các bảng để test trigger
-- Kết quả sau khi chạy thử trigger
+- Trigger sẽ báo thông báo nếu có 1 hàng thông tin thiếu Mã nhân khẩu
+![image](https://github.com/user-attachments/assets/630744fe-9f4d-4bcd-8173-139888f2ab4d)
+# Công dụng của trigger
+- Tự động hóa xử lý dữ liệu
+- Đảm bảo tính toàn vẹn dữ liệu
+- Ghi nhật ký (logging)
+- Ràng buộc nghiệp vụ (business rule)
